@@ -20,11 +20,11 @@ To run the exercises, you’ll need a C compiler installed.
 ### Prerequisites
 
 - A C compiler (e.g., **GCC** for Linux/macOS or **MinGW** for Windows)
-- A text editor or IDE (e.g., **VS Code**, **Sublime Text**, **Code::Blocks**)
+- A text editor or IDE (e.g., **VS Code**, **Sublime Text**, **VIM**)
 
 ### Installation & Running the Exercises
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/AchilleasMakris/C-Projects.git
-   cd c-exercises
+   cd c-project
