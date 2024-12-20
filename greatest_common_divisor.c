@@ -1,3 +1,8 @@
+// This program calculates the Greatest Common Divisor (GCD) of two integers provided by the user.
+// It uses the Euclidean algorithm to compute the GCD iteratively. The program handles special cases
+// where one of the numbers is zero, as the GCD in such cases is the other number. If both numbers are
+// non-zero, the algorithm repeatedly calculates the remainder of their division until the GCD is found.
+
 #include <stdio.h>
 
 int main(void)

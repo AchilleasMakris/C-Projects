@@ -1,3 +1,7 @@
+// This program performs basic arithmetic operations (addition, subtraction, multiplication, and division)
+// based on user input. The user provides two numbers and an operator (+, -, *, or /). The program
+// performs the chosen operation and displays the result. It also handles errors such as division by zero
+// and invalid operators.
 #include <stdio.h>
 
 int main(void)

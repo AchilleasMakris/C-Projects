@@ -1,3 +1,5 @@
+// This program generates the multiplication table for a given integer from 1 to 10. 
+// The user inputs a number, and the program displays the multiplication results in a clear format.
 #include <stdio.h>
 
 int main(void)

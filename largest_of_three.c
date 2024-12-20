@@ -1,3 +1,6 @@
+// This program determines which of three integers entered by the user is the largest. 
+// The user provides three integers, and the program compares them using conditional statements. 
+// If no single number is larger (e.g., if the numbers are equal), it informs the user accordingly.
 #include <stdio.h>
 
 int main(void)

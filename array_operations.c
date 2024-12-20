@@ -1,3 +1,7 @@
+// This program calculates the minimum and maximum values in a user-defined array. 
+// The user specifies the size of the array and provides the values for each element. 
+// The program dynamically populates the array and determines the smallest (min) 
+// and largest (max) values entered.
 #include <stdio.h>
 
 int main(void)

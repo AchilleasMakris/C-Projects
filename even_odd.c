@@ -1,3 +1,7 @@
+// This program determines whether a given integer is even or odd. 
+// The user is prompted to input a number, and the program checks if the number 
+// is divisible by 2 without a remainder. If divisible, the number is even; otherwise, it is odd.
+
 #include <stdio.h>
 
 int main(void)

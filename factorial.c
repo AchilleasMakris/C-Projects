@@ -1,3 +1,8 @@
+// This program calculates the factorial of a non-negative integer provided by the user. 
+// It uses a recursive function to compute the factorial. The user is prompted to enter a 
+// non-negative integer, and the program ensures this through a `do-while` loop. The result 
+// is displayed after calculating the factorial.
+
 #include <stdio.h>
 
 // Function prototype for calculating the factorial of a number

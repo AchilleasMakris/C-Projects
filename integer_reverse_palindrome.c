@@ -1,3 +1,6 @@
+// This program checks if a given integer is a palindrome and reverses its digits.
+// A palindrome is an integer that reads the same forward and backward.
+// The program assumes the input integer is non-negative and uses a helper function to reverse its digits.
 #include <stdio.h>
 
 // Reverses the digits of a given integer.

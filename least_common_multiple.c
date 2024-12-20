@@ -1,3 +1,6 @@
+// This program calculates the Least Common Multiple (LCM) of two integers provided by the user. 
+// It uses a brute-force approach to find the smallest number that is divisible by both integers. 
+// The larger of the two numbers is used as the starting point for efficiency.
 #include <stdio.h>
 
 int main(void)

@@ -1,3 +1,6 @@
+// This program finds and prints all prime numbers within a given range [min, max]. 
+// The user is prompted to enter the minimum and maximum values for the range, 
+// and the program checks each number within the range to see if it is prime.
 #include <stdio.h>
 #include <stdbool.h>
 

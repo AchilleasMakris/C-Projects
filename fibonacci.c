@@ -1,3 +1,8 @@
+// This program generates the Fibonacci sequence up to the N-th term, as specified by the user.
+// The user provides a non-negative integer, N, which determines the number of terms to display.
+// The program ensures the input is valid using a `do-while` loop and calculates the sequence iteratively
+// using variables to store the current and next terms. It handles large Fibonacci numbers by using
+// `long long int`.
 #include <stdio.h>
 
 int main(void)

@@ -1,3 +1,6 @@
+// This program calculates the sum of a series of integers entered by the user.
+// The user is prompted to enter the number of integers they want to sum, and 
+// then the program asks for each integer and calculates the total sum.
 #include <stdio.h>
 
 // Function prototype for summing a series of integers

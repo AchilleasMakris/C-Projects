@@ -1,3 +1,5 @@
+// This program calculates the length of a string entered by the user without using the `strlen` function.
+// It dynamically allocates memory for the string and manually counts its characters until it reaches the null terminator.
 #include <stdio.h>
 #include <stdlib.h>
 

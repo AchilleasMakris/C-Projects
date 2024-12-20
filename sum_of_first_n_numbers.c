@@ -1,3 +1,5 @@
+// This program calculates the sum of integers from 1 to a user-provided number `n`
+// by using a `for` loop to iterate through the range and accumulate the sum.
 #include <stdio.h>
 
 int main(void)
