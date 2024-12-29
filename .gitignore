@@ -6,3 +6,4 @@
 !.vscode/*.code-snippets
 .vscode/launch.json
 .vscode/settings.json
+.exe
