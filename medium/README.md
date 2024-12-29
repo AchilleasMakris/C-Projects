@@ -6,26 +6,19 @@ This folder contains medium-level C programming exercises. Each exercise is desi
 
 1. [Fibonacci Recursion](fibonacci_recursion.c)
    - **Description:** This program calculates the nth Fibonacci number using recursion. The Fibonacci sequence is defined as:
-     \[
-     F(n) = 
+     $$ F(n) = 
      \begin{cases} 
      0 & \text{if } n = 0 \\
      1 & \text{if } n = 1 \\
      F(n-1) + F(n-2) & \text{if } n > 1 
-     \end{cases}
-     \]
+     \end{cases} $$
 
 2. [Matrix Multiplication](matrix_multiplication.c)
    - **Description:** This program performs element-wise multiplication of two 2x5 matrices and prints the results.
 
 3. [Pascal's Triangle](pascal_triangle.c)
    - **Description:** This program generates Pascal's Triangle up to a specified number of rows. Pascal's Triangle is defined as:
-    
-     
-     \[
-     {n \choose k} = {n-1 \choose k-1} + {n-1 \choose k}
-     \]
-     
+     $$ {n \choose k} = {n-1 \choose k-1} + {n-1 \choose k} $$
    - **Image:**
      ![Pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
@@ -38,4 +31,3 @@ This folder contains medium-level C programming exercises. Each exercise is desi
 6. [Words in Sentences](words_in_sentences.c)
    - **Description:** This program counts the number of words in a given string.
 
-Feel free to explore each file and modify the code to enhance your understanding of C programming.

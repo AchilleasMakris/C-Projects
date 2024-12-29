@@ -46,4 +46,3 @@ This folder contains easy-level C programming exercises. Each exercise is design
 14. [Sum of First N Numbers](sum_of_first_n_numbers.c)
     - **Description:** This program calculates the sum of integers from 1 to a user-provided number `n`.
 
-Feel free to explore each file and modify the code to enhance your understanding of C programming.
