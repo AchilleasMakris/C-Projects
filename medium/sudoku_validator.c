@@ -23,7 +23,7 @@ int main(void)
     int flag = 0; // Variable to indicate whether a duplicate is found in any row
 
     // Loop through each row of the Sudoku board
-    for (int i = 0; i < 9; i++)
+    for (int row = 0; row < 9; row++)
     {
         // If a duplicate is found, stop checking further rows
         if (flag == 1)
@@ -32,7 +32,7 @@ int main(void)
         }
 
         // Loop through each cell in the current row
-        for (int j = 0; j < 9; j++)
+        for (int col = 0; col < 9; col++)
         {
             // If a duplicate is found, stop checking further cells in this row
             if (flag == 1)
@@ -41,19 +41,19 @@ int main(void)
             }
 
             // Compare the current cell with all other cells in the same row
-            for (int k = 0; k < 9; k++)
+            for (int temp = 0; temp < 9; temp++)
             {
                 // Check for duplicates in the row:
-                // 1. Ignore the current cell itself (`j != k`)
+                // 1. Ignore the current cell itself (`col != temp`)
                 // 2. Ignore empty cells (value 0)
-                if (j != k && array[i][j] == array[i][k] && array[i][j] != 0)
+                if (col != temp && array[row][col] == array[row][temp] && array[row][col] != 0)
                 {
                     flag = 1; // Set flag to indicate a duplicate was found
                     break;
                 }
 
                 // Check if the number in the cell is out of bounds (valid range is 1-9)
-                if (array[i][j] > 9 || array[i][j] < 0)
+                if (array[row][col] > 9 || array[row][col] < 0)
                 {
                     printf("Out of bounds number.\n"); // Print error message for invalid input
                     break;
