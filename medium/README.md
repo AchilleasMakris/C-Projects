@@ -24,3 +24,13 @@ This folder contains medium-level C programming exercises. Each exercise is desi
 6. [Words in Sentences](words_in_sentences.c)
    - **Description:** This program counts the number of words in a given string.
 
+7. [Print First Letter](print_first_letter.c)
+   - **Description:** This program extracts and prints the first letter of each word in a given string.
+
+8. [Random Number Game](random_number_game.c)
+   - **Description:** This program is a simple number guessing game where the user tries to guess a randomly generated number between 1 and 100.
+
+9. [Sudoku Validator](sudoku_validator.c)
+   - **Description:** This program validates the rows of a 9x9 Sudoku board to check for duplicate numbers.
+
+Feel free to explore each file and modify the code to enhance your understanding of C programming.
