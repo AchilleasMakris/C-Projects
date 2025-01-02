@@ -12,8 +12,7 @@ This folder contains medium-level C programming exercises. Each exercise is desi
 
 3. [Pascal's Triangle](pascal_triangle.c)
    - **Description:** This program generates Pascal's Triangle up to a specified number of rows.
-   - **Image:**
-     ![Pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+   - ![Pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
 
 4. [Reverse Array](reverse_array.c)
    - **Description:** This program reverses the elements of an array in place and prints the original and reversed arrays.
