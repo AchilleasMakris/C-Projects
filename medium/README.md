@@ -32,4 +32,10 @@ This folder contains medium-level C programming exercises. Each exercise is desi
 9. [Sudoku Validator](sudoku_validator.c)
    - **Description:** This program validates the rows of a 9x9 Sudoku board to check for duplicate numbers.
 
+10. [File IO Word Count](file_io_word_count.c)
+    - **Description:** This program counts the number of words in a text file.
+
+11. [Hangman](hangman.c)
+    - **Description:** This program is a simple Hangman game where the user tries to guess a randomly selected word from a file.
+
 Feel free to explore each file and modify the code to enhance your understanding of C programming.
