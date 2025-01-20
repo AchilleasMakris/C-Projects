@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(void)
 {
     int words = 0; // Variable to count the number of words in the string
-    char *string = "This is a string with seven words."; // Sample string to count words
+    char string[] = "This is a string with seven words."; // Sample string to count words
 
     // Loop through each character in the string
     for (int i = 0; i < strlen(string); i++)
     {
         // Check for spaces that are followed by another character (indicating a new word)
-        if (string[i] == ' ' && string[i + 1] != '\0')
+        if (isspace(string[i]))
         {
             words++; // Increment the word count when a space is encountered
         }
