@@ -38,4 +38,7 @@ This folder contains medium-level C programming exercises. Each exercise is desi
 11. [Hangman](hangman.c)
     - **Description:** This program is a simple Hangman game where the user tries to guess a randomly selected word from a file.
 
+12. [Mini Calendar](mini_callendar.c)
+    - **Description:** This program determines whether a given year is a leap year and allows the user to add a specified number of days to a given date.
+
 Feel free to explore each file and modify the code to enhance your understanding of C programming.
